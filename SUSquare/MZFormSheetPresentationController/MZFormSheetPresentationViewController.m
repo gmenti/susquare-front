@@ -319,8 +319,6 @@
     self.contentViewController.view.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
     self.contentViewController.view.layer.masksToBounds = YES;
     self.contentViewController.view.layer.cornerRadius = self.contentViewCornerRadius;
-    //update shadow radius
-    self.shadowRadius = self.shadowRadius;
     self.contentViewController.view.frame = self.view.bounds;
 }
 
